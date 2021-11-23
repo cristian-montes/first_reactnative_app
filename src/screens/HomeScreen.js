@@ -19,6 +19,11 @@ const HomeScreen = (props) => {
         onPress={() => props.navigation.navigate('Image')}
         title="Go to Image Demo"
       />
+
+<Button
+        onPress={() => props.navigation.navigate('Counter')}
+        title="Go to Counter Demo"
+      />
     </View>
   )
 };
